@@ -1,0 +1,54 @@
+//----------------------------------------------------------------------------------------------------------------------
+// Custom Properties
+// Glitter / Sparkle
+[Enum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos XZ, 5)] _PoiGlitterUV ("UV", Int) = 0
+[Enum(Angle, 0, Linear Emission, 1, Light Reflections, 2)]_PoiGlitterMode ("Mode", Int) = 0
+[Enum(Circle, 0, Square, 1)]_PoiGlitterShape ("Shape", Int) = 0
+[Enum(Add, 0, Replace, 1)] _PoiGlitterBlendType ("Blend Mode", Int) = 0
+[HDR]_PoiGlitterColor ("Color", Color) = (1, 1, 1)
+_PoiGlitterUseSurfaceColor ("Use Surface Color", Range(0, 1)) = 0
+
+// Color Map
+_PoiGlitterColorMap ("Glitter Color Map", 2D) = "white" { }
+[HideInInspector][Vector2]_PoiGlitterColorMapPan ("Panning", Vector) = (0, 0, 0, 0)
+[Enum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos XZ, 5)] _PoiGlitterColorMapUV ("UV", Int) = 0
+[HideInInspector][Vector2]_PoiGlitterPan ("Panning", Vector) = (0, 0, 0, 0)
+
+// Glitter Mask
+_PoiGlitterMask ("Glitter Mask", 2D) = "white" { }
+[HideInInspector][Vector2]_PoiGlitterMaskPan ("Panning", Vector) = (0, 0, 0, 0)
+[HideInInspector][Enum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos XZ, 5)] _PoiGlitterMaskUV ("UV", Int) = 0
+
+// Glitter Texture
+_PoiGlitterTexture ("Glitter Texture", 2D) = "white" { }
+[HideInInspector][Vector2]_PoiGlitterTexturePan ("Panning", Vector) = (0, 0, 0, 0)
+[HideInInspector][Enum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos XZ, 5)] _PoiGlitterTextureUV ("UV", Int) = 0
+
+_PoiGlitterUVPanning ("Panning Speed", Vector) = (0, 0, 0, 0)
+_PoiGlitterTextureRotation ("Rotation Speed", Float) = 0
+_PoiGlitterFrequency ("Glitter Density", Float) = 300.0
+_PoiGlitterJitter ("Glitter Jitter", Range(0, 1)) = 1.0
+_PoiGlitterSpeed ("Glitter Speed", Float) = 10.0
+_PoiGlitterSize ("Glitter Size", Range(0, 1)) = .3
+_PoiGlitterContrast ("Glitter Contrast", Range(1, 1000)) = 300
+_PoiGlitterAngleRange ("Glitter Angle Range", Range(0, 90)) = 90
+_PoiGlitterMinBrightness ("Glitter Min Brightness", Range(0, 1)) = 0
+_PoiGlitterBrightness ("Glitter Max Brightness", Range(0, 40)) = 3
+_PoiGlitterBias ("Glitter Bias", Range(0, 1)) = .8
+_PoiGlitterHideInShadow ("Hide in shadow", Range(0, 1)) = 0
+_PoiGlitterCenterSize ("dim light", Range(0, 1)) = .08
+_PoiGlitterFrequencyLinearEmissive ("Frequency", Range(0, 100)) = 20
+_PoiGlitterJaggyFix ("Jaggy Fix", Range(0, .1)) = .0
+
+[ToggleUI]_PoiGlitterHueShiftEnabled ("Hue Shift", Float) = 0
+_PoiGlitterHueShiftSpeed ("Shift Speed", Float) = 0
+_PoiGlitterHueShift ("Hue Shift", Range(0, 1)) = 0
+
+[ToggleUI]_PoiGlitterRandomColors ("Random Stuff", Float) = 0
+_PoiGlitterSaturationMin("Saturation Min", float) = 0.8
+_PoiGlitterSaturationMax("Saturation Max", float) = 1.0
+_PoiGlitterBrightnessMin("Brightness Min", float) = 0.8
+_PoiGlitterBrightnessMax("Brightness Max", float) = 1.0
+[ToggleUI]_PoiGlitterRandomSize ("Random Size", Float) = 0
+_PoiGlitterMinMaxSize ("Size Range", Vector) = (0.1, 0.5, 0, 1)
+[ToggleUI]_PoiGlitterRandomRotation ("Random Tex Rotation", Float) = 0
