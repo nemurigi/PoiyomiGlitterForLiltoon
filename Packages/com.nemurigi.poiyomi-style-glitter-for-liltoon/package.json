@@ -1,0 +1,9 @@
+{
+  "name": "com.nemurigi.poiyomi-style-glitter-for-liltoon",
+  "displayName": "Poiyomi Style Glitter for lilToon",
+  "version": "0.0.1",
+  "lisence": "MIT",
+  "vpmDependencies": {
+    "jp.lilxyzw.liltoon": ">=2.0.0"
+  }
+}
