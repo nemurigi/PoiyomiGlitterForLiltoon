@@ -8,8 +8,8 @@
         "com.unity.burst": "1.8.7"
       }
     },
-    "com.nemurigi.poiyomi-glitter-for-liltoon": {
-      "version": "file:com.nemurigi.poiyomi-glitter-for-liltoon",
+    "com.nemurigi.poiyomi-style-glitter-for-liltoon": {
+      "version": "file:com.nemurigi.poiyomi-style-glitter-for-liltoon",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
