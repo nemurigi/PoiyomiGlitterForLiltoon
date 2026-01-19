@@ -133,7 +133,7 @@ namespace NmrgLibrary.PoiyomiStyleGlitterForLiltoon.Editor
             // customBox        box (similar to unity default box)
             // customToggleFont label for box
 
-            isShowCustomProperties = Foldout("Poiyomi Glitter", "Poiyomi Style Glitter", isShowCustomProperties);
+            isShowCustomProperties = Foldout("Poiyomi Style Glitter", "Poiyomi Style Glitter", isShowCustomProperties);
             if (isShowCustomProperties)
             {
                 EditorGUILayout.BeginVertical(boxOuter);
