@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using lilToon;
 
-namespace NmrgLibrary.PoiyomiGlitterForLiltoon.Editor
+namespace NmrgLibrary.PoiyomiStyleGlitterForLiltoon.Editor
 {
     public class LilPoiyomiGlitterEditor : lilToonInspector
     {
