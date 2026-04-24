@@ -10,7 +10,7 @@ namespace NmrgLibrary.PoiyomiStyleGlitterForLiltoon.Editor
     public class LilPoiyomiGlitterEditor : lilToonInspector
     {
         private static bool isShowCustomProperties;
-        private const string shaderName = "NmrgLibrary/lilPoiyomiGlitter";
+        private const string shaderName = "NmrgLibrary/lilPoiyomiGlitter/8.1";
         
         // Custom properties
         // MaterialProperty customVariable;
