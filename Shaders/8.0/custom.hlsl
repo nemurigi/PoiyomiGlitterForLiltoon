@@ -102,7 +102,7 @@ float _PoiGlitterTextureUV;
 #define LIL_CUSTOM_VERT_COPY
 
 // Inserting a process into the vertex shader
-//#define LIL_CUSTOM_VERTEX_OS
+// #define LIL_CUSTOM_VERTEX_OS
 //#define LIL_CUSTOM_VERTEX_WS
 
 // Inserting a process into pixel shader
